@@ -34,4 +34,13 @@ public class EmployeeTest {
 	 assertEquals("foobar", emp.getName()); 
 	 assertEquals(10, emp.getAge()); 
    }
+   
+   
+   @Test
+   public void testMethod3() {
+	 Employee emp = new Employee(1, "foobar", 10); 
+	 assertEquals(1, emp.getId());
+	 assertEquals("foobar", emp.getName()); 
+	 assertEquals(10, emp.getAge()); 
+   }
 }
